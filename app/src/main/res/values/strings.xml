@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">民宿</string>
+
+    <string name="item_fragment_home_header_search">搜索民宿</string>
+    <string name="item_fragment_home_header_hot">热门民宿</string>
+    <string name="item_fragment_home_header_active">活跃房客</string>
+    <string name="item_fragment_home_header_travel">精彩游记</string>
+    <string name="item_fragment_home_header_share">分享民宿</string>
+
+    <string name="home_image_share_minsu">分享民宿</string>
+    <string name="home_image_share_cancel">取消</string>
+    <string name="home_image_share_see">预览</string>
+    <string name="home_image_share_name">名称描述</string>
+    <string name="home_image_share_type">民宿类型</string>
+    <string name="home_image_share_price">最低价格</string>
+    <string name="home_image_share_phone">预定电话</string>
+    <string name="home_image_share_address">详细地址</string>
+    <string name="home_image_share_immediately">立即分享</string>
+
+    <string name="home_item_lv_money">764</string>
+    <string name="home_item_lv_title_text">花盛美地度假屋</string>
+    <string name="home_item_lv_text">唯美度假城堡，在烂漫的树上泡温泉</string>
+    <string name="home_item_lv_locate_city">三亚</string>
+    <string name="home_item_lv_integral">9.0分</string>
+    <string name="home_item_lv_common">23评论</string>
+
+    <string name="settlement_header_locate_city">广州</string>
+    <string name="settlement_header_all_city">全部城市> </string>
+    <string name="settlement_header_hot_city">热门城市 >>> </string>
+
+    <string name="select_city">选择城市</string>
+    <string name="hot_city">热门城市</string>
+    <string name="located_city">定位城市</string>
+    <string name="hint_search_box">搜索民宿、目的地</string>
+    <string name="nothing_found">没有搜索结果~</string>
+    <string name="locating">正在定位…</string>
+    <string name="located_failed">定位失败</string>
+
+
+</resources>

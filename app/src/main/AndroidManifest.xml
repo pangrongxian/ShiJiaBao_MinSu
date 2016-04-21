@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shijiabao.minsu">
+
+    <!-- 用于访问网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入缓存定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- 使用2.0的定位需要加上这个 -->
+    <service android:name="com.amap.api.location.APSService" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="987d4c94c8b21e26de200763c85d4cb9" />
+
+        <activity android:name=".ui.view.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.my.MyMinSuActivity" />
+        <activity android:name=".ui.my.MySettingActivity" />
+        <activity android:name=".ui.my.MyMessageActivity" />
+        <activity android:name=".ui.my.MyHeadActivity" />
+        <activity android:name=".ui.settlement.SettlementItemActivity" />
+        <activity android:name=".ui.home.HomeItemActivity" />
+        <activity android:name=".ui.home.HomeShareActivity" />
+        <activity android:name=".ui.travels.TitleWriteActivity" />
+        <activity android:name=".ui.travels.TravelsItemActivity" />
+        <activity android:name=".ui.my.MyCollectionActivity" />
+        <activity android:name=".ui.my.MyIntegralActivity" />
+        <activity android:name=".ui.my.MyFocusActivity" />
+        <activity android:name=".ui.my.MyOperationActivity" />
+        <activity android:name=".ui.my.MyCompletedActivity" />
+        <activity android:name=".ui.my.MyEvaluateActivity" />
+        <activity android:name=".ui.my.MyOpenMinSuActivity" />
+        <activity android:name=".ui.my.MyOrderActivity" />
+        <activity android:name=".ui.my.MyConsultationActivity" />
+        <activity android:name=".ui.my.MyWalletActivity" />
+        <activity android:name=".ui.view.LoginActivity" />
+        <activity android:name=".ui.view.MainActivity" />
+        <activity
+            android:name=".ui.view.CityPickerActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".ui.view.PerfectInformationActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.0 rc2"
+
+    defaultConfig {
+        applicationId "com.shijiabao.minsu"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    //roll viewpager
+    compile 'com.jude:rollviewpager:1.2.8'
+    //circle image view
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    //adapter
+    compile 'com.zhy:base-adapter:2.0.0'
+    compile 'com.android.support:support-v4:23.3.0'
+    //glide
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //volley
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile files('libs/glide-volley-integration-1.4.0.jar')
+    //compile 'com.github.bumptech.glide:volley-integration:1.0.+'
+    //ok http
+    compile 'com.squareup.okhttp3:okhttp:3.0.1'
+    //map
+    compile files('libs/AMap_Location_V2.4.1_20160414.jar')
+    //butterKnife
+    compile 'com.jakewharton:butterknife:7.0.1'
+
+}

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/my_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/my_news_image"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:clickable="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/my_icon_news"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/my_head_image"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:clickable="true"
+                android:layout_gravity="center_horizontal"
+                app:civ_border_width="2dp"
+                android:src="@mipmap/home_icon_hothouse"
+                app:civ_border_color="#FFFFFFFF" />
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/my_setting_image"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:clickable="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="14dp"
+            android:src="@mipmap/my_icon_setting"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:text="逢泽莉娜"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/my_collection_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:clickable="true"
+                android:src="@mipmap/my_icon_collects"/>
+            <TextView
+                android:layout_width="28dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="收藏"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/my_integral_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:clickable="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/my_icon_integral"/>
+            <TextView
+                android:layout_width="28dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="积分"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="38dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/my_focus_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:clickable="true"
+                android:src="@mipmap/my_icon_follow"/>
+            <TextView
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="关注"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shape_line"
+        android:layerType="software"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/my_operation_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:clickable="true"
+                android:src="@mipmap/my_icon_dealing"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="进行中"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/my_complete_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:clickable="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/my_icon_finish"/>
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="20dp"
+                  android:layout_centerHorizontal="true"
+                  android:text="已完成"/>
+
+              <TextView
+                  android:layout_width="10dp"
+                  android:layout_height="10dp"
+                  android:background="@mipmap/home_icon_hothouse"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentRight="true"
+                  android:layout_alignParentEnd="true" />
+
+          </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="38dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/my_evaluate_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:clickable="true"
+                android:src="@mipmap/my_icon_noscore"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="待评价"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shape_line"
+        android:layerType="software"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/my_open_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:src="@mipmap/my_icon_opening"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="开通民宿"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/my_order_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/my_icon_dealorder"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="订单处理"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/my_consultation_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:src="@mipmap/my_icon_consulting"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="房客咨询"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/my_wallet_iamge"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:src="@mipmap/my_icon_mywallet"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="我的钱包"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/my_minsu_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/my_icon_myhouse"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="我的民宿"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
