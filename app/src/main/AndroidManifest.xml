@@ -71,7 +71,8 @@
         <activity android:name=".ui.view.TimePickerActivity" />
         <activity android:name=".ui.view.DatePickerActivity" />
         <activity android:name=".ui.view.AppointmentActivity" />
-        <activity android:name=".ui.view.RoomDetailsActivity"></activity>
+        <activity android:name=".ui.view.RoomDetailsActivity" />
+        <activity android:name=".ui.view.OrderDetailsActivity"></activity>
     </application>
 
 </manifest>
