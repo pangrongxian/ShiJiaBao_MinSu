@@ -25,7 +25,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="设置"
-            android:textColor="@color/black"
+            android:textColor="@color/color_black"
             android:textSize="22sp" />
 
         <ImageView
@@ -175,7 +175,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/black"
+            android:textColor="@color/color_black"
             android:text="退出登录"/>
 
     </LinearLayout>

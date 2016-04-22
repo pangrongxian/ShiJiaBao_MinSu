@@ -12,8 +12,8 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="19dp"
-            android:layout_height="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:src="@mipmap/btn_back_green" />
 
@@ -23,18 +23,18 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="花盛美地度假屋"
-            android:textColor="@color/black"
+            android:textColor="@color/color_black"
             android:textSize="22sp" />
 
         <ImageView
-            android:layout_width="19dp"
-            android:layout_height="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginRight="15dp"
             android:src="@mipmap/house_btn_collect_nor" />
 
         <ImageView
-            android:layout_width="19dp"
-            android:layout_height="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginRight="15dp"
             android:src="@mipmap/house_btn_share_nor" />
 
@@ -223,17 +223,16 @@
             android:layout_height="wrap_content"
             android:background="@color/comment"
             android:text="在线沟通"
-            android:textColor="@color/white"
-            android:id="@+id/button2" />
+            android:textColor="@color/white" />
 
         <Button
+            android:id="@+id/appointmentBtn"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:background="@color/red"
             android:text="申请预定"
-            android:textColor="@color/white"
-            android:id="@+id/button3" />
+            android:textColor="@color/white" />
     </LinearLayout>
 
 

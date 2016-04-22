@@ -72,6 +72,6 @@ public class SettlementItemActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         //退出就清空 sharedPreferences
-        sharedPreferences.edit().clear().commit();
+       // sharedPreferences.edit().clear().commit();
     }
 }

@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:background="@color/white"
-            android:textColor="@color/black"
+            android:textColor="@color/color_black"
             android:textSize="18sp"
             android:text="@string/home_image_share_cancel" />
 
@@ -27,7 +27,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="@string/home_image_share_minsu"
-            android:textColor="@color/black"
+            android:textColor="@color/color_black"
             android:textSize="22sp" />
 
         <TextView

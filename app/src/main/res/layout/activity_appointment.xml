@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="50dp"
+    android:layout_height="match_parent"
     android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/day_ll"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/white"
@@ -12,31 +13,40 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:id="@+id/loginBack"
             android:layout_width="19dp"
             android:layout_height="19dp"
             android:layout_marginLeft="15dp"
-            android:src="@mipmap/tabbar_my_icon_sel" />
-
+            android:src="@mipmap/btn_back_green" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="关注"
-            android:textColor="@color/color_black"
+            android:text="申请预定"
+            android:textColor="#000000"
             android:textSize="22sp" />
-
         <ImageView
             android:layout_width="19dp"
             android:layout_height="19dp"
-            android:layout_marginRight="15dp"
-            android:src="@mipmap/diary_icon_writediary" />
-
+            android:layout_marginRight="15dp" />
     </LinearLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:background="@color/color_black"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_below="@+id/day_ll">
+            <include layout="@layout/activity_appointment_include"/>
+        </ScrollView>
+
+    <Button
+    android:id="@+id/commitBtn"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#CEE21A"
+    android:textSize="18sp"
+    android:textColor="@color/white"
+    android:text="提交订单"/>
 
 </LinearLayout>

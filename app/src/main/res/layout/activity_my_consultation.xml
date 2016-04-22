@@ -24,7 +24,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="关注"
-            android:textColor="@color/black"
+            android:textColor="@color/color_black"
             android:textSize="22sp" />
 
         <ImageView

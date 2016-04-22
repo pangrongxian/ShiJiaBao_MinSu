@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="black">#000000</color>
+    <color name="color_black">#000000</color>
     <color name="gray">#868686</color>
     <color name="green_gray">#F5F9F9</color>
     <color name="green">#86B950</color>
@@ -33,6 +33,6 @@
     <color name="cal_bar_color">#FF3300</color>
     <color name="cal_choose_bg">#33B5E5</color>
     <color name="color_gray">#999999</color>
-    <color name="color_choose_between"> #F5F5F5</color>
+    <color name="color_choose_between">#F5F5F5</color>
 
 </resources>

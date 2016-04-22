@@ -24,7 +24,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="钱包"
-            android:textColor="@color/black"
+            android:textColor="@color/color_black"
             android:textSize="22sp" />
 
         <TextView
