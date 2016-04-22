@@ -42,5 +42,7 @@ dependencies {
     compile files('libs/AMap_Location_V2.4.1_20160414.jar')
     //butterKnife
     compile 'com.jakewharton:butterknife:7.0.1'
+    //time picker
+    compile 'com.squareup:android-times-square:1.6.5@aar'
 
 }

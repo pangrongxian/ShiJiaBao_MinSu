@@ -1,6 +1,7 @@
 package com.shijiabao.minsu.ui.view;
 
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.shijiabao.minsu.R;
+import com.shijiabao.minsu.custom.CustomDialog;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -60,7 +62,35 @@ public class LoginActivity extends Activity {
                 break;
             case R.id.loginQQ:
                 Toast.makeText(this, "loginQQ", Toast.LENGTH_SHORT).show();
+//                Intent intentQQ = new Intent(this,TimePickerActivity.class);
+//                startActivity(intentQQ);
+                showAlertDialog();
                 break;
         }
     }
+
+    /**
+     * 对话框
+     */
+    public void showAlertDialog() {
+        CustomDialog.Builder builder = new CustomDialog.Builder(this);
+        builder.setTitle("标题");
+        builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                //设置你的操作事项
+                Toast.makeText(LoginActivity.this, "设置你的操作事项", Toast.LENGTH_SHORT).show();
+            }
+        });
+        builder.setNegativeButton("取消",
+                new android.content.DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+
+        //setMessage
+
+        builder.create().show();
+    }
+
 }

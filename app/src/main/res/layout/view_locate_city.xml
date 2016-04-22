@@ -19,12 +19,6 @@
             android:clickable="true"
             android:background="@drawable/shape_locate_city_">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/ic_locate"
-                tools:ignore="ContentDescription" />
-
             <TextView
                 android:id="@+id/tv_located_city"
                 android:layout_width="wrap_content"
@@ -33,5 +27,11 @@
                 android:text="@string/locating"
                 android:textSize="16sp"
                 android:textColor="@color/gray_deep"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/search_icon_location"
+                tools:ignore="ContentDescription" />
         </LinearLayout>
 </LinearLayout>

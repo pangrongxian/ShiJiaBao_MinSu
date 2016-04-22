@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">民宿</string>
+    <string name="app_name">士加堡民宿</string>
 
     <string name="item_fragment_home_header_search">搜索民宿</string>
     <string name="item_fragment_home_header_hot">热门民宿</string>

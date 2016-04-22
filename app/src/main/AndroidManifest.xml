@@ -35,7 +35,7 @@
             android:name="com.amap.api.v2.apikey"
             android:value="987d4c94c8b21e26de200763c85d4cb9" />
 
-        <activity android:name=".ui.view.WelcomeActivity">
+        <activity android:name=".ui.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -62,12 +62,13 @@
         <activity android:name=".ui.my.MyConsultationActivity" />
         <activity android:name=".ui.my.MyWalletActivity" />
         <activity android:name=".ui.view.LoginActivity" />
-        <activity android:name=".ui.view.MainActivity" />
+        <activity android:name=".ui.view.WelcomeActivity" />
         <activity
             android:name=".ui.view.CityPickerActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
-        <activity android:name=".ui.view.PerfectInformationActivity"></activity>
+        <activity android:name=".ui.view.PerfectInformationActivity" />
+        <activity android:name=".ui.view.TimePickerActivity"></activity>
     </application>
 
 </manifest>
