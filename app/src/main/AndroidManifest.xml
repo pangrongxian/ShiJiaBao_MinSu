@@ -68,7 +68,8 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity android:name=".ui.view.PerfectInformationActivity" />
-        <activity android:name=".ui.view.TimePickerActivity"></activity>
+        <activity android:name=".ui.view.TimePickerActivity"/>
+        <activity android:name=".ui.view.DatePickerActivity"/>
     </application>
 
 </manifest>

@@ -26,4 +26,13 @@
     <color name="theme_gray">#646464</color>
     <color name="search_ediText">#EBEBEB</color>
 
+    <color name="color_default">#666666</color>
+    <color name="color_orgin">#33B5E5</color>
+    <color name="write">#FFFFFF</color>
+    <color name="color_orange">#FF6600</color>
+    <color name="cal_bar_color">#FF3300</color>
+    <color name="cal_choose_bg">#33B5E5</color>
+    <color name="color_gray">#999999</color>
+    <color name="color_choose_between"> #F5F5F5</color>
+
 </resources>

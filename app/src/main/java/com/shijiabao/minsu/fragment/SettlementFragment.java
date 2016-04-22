@@ -13,8 +13,6 @@ import android.widget.AbsListView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
-
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
@@ -27,7 +25,6 @@ import com.shijiabao.minsu.common.MemoryCache;
 import com.shijiabao.minsu.resource.Resource;
 import com.shijiabao.minsu.ui.settlement.SettlementItemActivity;
 import com.shijiabao.minsu.ui.view.CityPickerActivity;
-
 
 import java.io.InputStream;
 
