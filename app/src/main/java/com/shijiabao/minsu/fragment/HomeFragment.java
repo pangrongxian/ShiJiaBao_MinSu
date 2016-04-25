@@ -104,6 +104,7 @@ public class HomeFragment extends Fragment implements SwipeRefreshLayout.OnRefre
 
 	private void listener() {
 		swipeRefreshLayout.setOnRefreshListener(this);//刷新监听
+
 		swipeRefreshLayout.setColorSchemeResources(R.color.colorPrimary,R.color.colorAccent,R.color.comment,R.color.fraction);
 
 	}
