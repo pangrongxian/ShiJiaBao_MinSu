@@ -13,20 +13,14 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import com.amap.api.location.AMapLocation;
-import com.amap.api.location.AMapLocationClient;
-import com.amap.api.location.AMapLocationClientOption;
-import com.amap.api.location.AMapLocationListener;
 import com.shijiabao.minsu.R;
 import com.shijiabao.minsu.citypicker.adapter.CityListAdapter;
 import com.shijiabao.minsu.citypicker.adapter.ResultListAdapter;
 import com.shijiabao.minsu.citypicker.db.DBManager;
 import com.shijiabao.minsu.citypicker.model.City;
 import com.shijiabao.minsu.citypicker.model.LocateState;
-import com.shijiabao.minsu.citypicker.utils.StringUtils;
 import com.shijiabao.minsu.citypicker.utils.ToastUtils;
 import com.shijiabao.minsu.citypicker.view.SideLetterBar;
-
 
 import java.util.List;
 
@@ -51,7 +45,7 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
     private List<City> mAllCities;
     private DBManager dbManager;
 
-    private AMapLocationClient mLocationClient;
+//    private AMapLocationClient mLocationClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,30 +58,39 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
     }
 
     private void initLocation() {//初始化位置
-        mLocationClient = new AMapLocationClient(getApplicationContext());
-        AMapLocationClientOption option = new AMapLocationClientOption();
-        option.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);
-        option.setOnceLocation(true);
-        mLocationClient.setLocationOption(option);
-        mLocationClient.setLocationListener(new AMapLocationListener() {
-            @Override
-            public void onLocationChanged(AMapLocation aMapLocation) {
-                if (aMapLocation != null) {
-                    if (aMapLocation.getErrorCode() == 0) {
-                        String city = aMapLocation.getCity();
-                        String district = aMapLocation.getDistrict();
-                        Log.e("onLocationChanged", "city: " + city);
-                        Log.e("onLocationChanged", "district: " + district);
-                        String location = StringUtils.extractLocation(city, district);
-                        mCityAdapter.updateLocateState(LocateState.SUCCESS, location);
-                    } else {
-                        //定位失败
-                        mCityAdapter.updateLocateState(LocateState.FAILED, null);
-                    }
-                }
-            }
-        });
-        mLocationClient.startLocation();
+//        mLocationClient = new AMapLocationClient(getApplicationContext());
+//        AMapLocationClientOption option = new AMapLocationClientOption();
+//        option.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);
+//        option.setOnceLocation(true);
+//        mLocationClient.setLocationOption(option);//设置定位参数
+//        mLocationClient.setLocationListener(new AMapLocationListener() {//设置定位监听
+//            @Override
+//            public void onLocationChanged(AMapLocation aMapLocation) {
+//                if (aMapLocation != null) {
+//                    if (aMapLocation.getErrorCode() == 0) {
+//
+//                        /**
+//                         * amapLocation.getCity();//城市信息
+//                         * amapLocation.getDistrict();//城区信息
+//                         */
+//                        String city = aMapLocation.getCity();//获取定位城市
+//                        String district = aMapLocation.getDistrict();//获取定位目标
+//
+//                        Log.e("onLocationChanged", "city: " + city);
+//                        Log.e("onLocationChanged", "district: " + district);
+//
+//
+//                        String location = StringUtils.extractLocation(city, district);
+//
+//                        mCityAdapter.updateLocateState(LocateState.SUCCESS, location);
+//                    } else {
+//                        //定位失败
+//                        mCityAdapter.updateLocateState(LocateState.FAILED, null);
+//                    }
+//                }
+//            }
+//        });
+//        mLocationClient.startLocation();
     }
 
     private void initData() {
@@ -105,7 +108,7 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
             public void onLocateClick() {
                 Log.e("onLocateClick", "重新定位...");
                 mCityAdapter.updateLocateState(LocateState.LOCATING, null);
-                mLocationClient.startLocation();
+//                mLocationClient.startLocation();//点击再次开启定位
             }
         });
 
@@ -203,6 +206,6 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        mLocationClient.stopLocation();
+        //mLocationClient.stopLocation();//关闭定位
     }
 }
