@@ -116,7 +116,7 @@
                     android:clickable="true"/>
 
                 <Button
-                    android:id="@+id/seeMap"
+                    android:id="@+id/seeMapBtn"
                     android:layout_width="60dp"
                     android:layout_height="35dp"
                     android:layout_marginTop="5dp"

@@ -26,21 +26,14 @@ import com.shijiabao.minsu.adapter.HomeItemRecyclerViewAdapter;
 import com.shijiabao.minsu.common.DividerGridItemDecoration;
 import com.shijiabao.minsu.map.LocatedActivity;
 import com.shijiabao.minsu.ui.view.AppointmentActivity;
-import com.shijiabao.minsu.ui.view.OrderDetailsActivity;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 
-public class HomeItemLocateActivity extends AppCompatActivity {
+public class HomeItemLocateActivity extends AppCompatActivity implements View.OnClickListener {
 
-    @Bind(R.id.appointmentBtn)
-    Button appointmentBtn;
-    @Bind(R.id.seeMap)
-    Button seeMap;
     private RecyclerView mRecyclerView;
     private List<String> mDatas;
     private HomeItemRecyclerViewAdapter mAdapter;
@@ -51,6 +44,8 @@ public class HomeItemLocateActivity extends AppCompatActivity {
     public LocationClient mLocationClient = null;
     public BDLocationListener myListener = new MyLocationListener();
     private boolean isFirstLocation = true;
+
+    private Button appointmentBtn,seeMapBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +79,10 @@ public class HomeItemLocateActivity extends AppCompatActivity {
 
     private void initView() {
         mRecyclerView = (RecyclerView) findViewById(R.id.home_item_recyclerView);
+        appointmentBtn = (Button) findViewById(R.id.appointmentBtn);
+        seeMapBtn = (Button) findViewById(R.id.seeMapBtn);
+        appointmentBtn.setOnClickListener(this);
+        seeMapBtn.setOnClickListener(this);
     }
 
     private void initData() {
@@ -106,20 +105,35 @@ public class HomeItemLocateActivity extends AppCompatActivity {
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
     }
 
-    @OnClick({R.id.seeMap, R.id.appointmentBtn})
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.seeMap:
-                //查看全屏地图
-                Intent intent = new Intent(this, LocatedActivity.class);
-                startActivity(intent);
-                break;
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
             case R.id.appointmentBtn:
                 Intent intent2 = new Intent(this, AppointmentActivity.class);
                 startActivity(intent2);
                 break;
+            //查看全屏地图
+            case R.id.seeMapBtn:
+                Intent intent = new Intent(this, LocatedActivity.class);
+                startActivity(intent);
+                break;
         }
     }
+
+//    @OnClick({R.id.seeMap, R.id.appointmentBtn})
+//    public void onClick(View view) {
+//        switch (view.getId()) {
+//            case R.id.seeMap:
+//                //查看全屏地图
+//                Intent intent = new Intent(this, LocatedActivity.class);
+//                startActivity(intent);
+//                break;
+//            case R.id.appointmentBtn:
+//                Intent intent2 = new Intent(this, AppointmentActivity.class);
+//                startActivity(intent2);
+//                break;
+//        }
+//    }
 
     /**
      * 定位SDK监听函数
