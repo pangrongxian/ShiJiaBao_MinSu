@@ -17,14 +17,13 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
+
 import com.jude.rollviewpager.RollPagerView;
 import com.jude.rollviewpager.adapter.LoopPagerAdapter;
 import com.jude.rollviewpager.hintview.ColorPointHintView;
 import com.shijiabao.minsu.R;
 import com.shijiabao.minsu.adapter.HomeFragmentAdapter;
-import com.shijiabao.minsu.map.LocatedActivity;
 import com.shijiabao.minsu.resource.Resource;
-import com.shijiabao.minsu.ui.home.HomeItemActivity;
 import com.shijiabao.minsu.ui.home.HomeItemLocateActivity;
 import com.shijiabao.minsu.ui.home.HomeShareActivity;
 
@@ -117,7 +116,7 @@ public class HomeFragment extends Fragment implements SwipeRefreshLayout.OnRefre
 		home_lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-				//点击跳转到HomeItemActivity
+				//HomeItemLocateActivity
 				Intent intent = new Intent(getActivity(), HomeItemLocateActivity.class);
 				startActivity(intent);
 			}

@@ -7,6 +7,7 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 
 import com.baidu.location.BDLocation;
@@ -24,6 +25,8 @@ import com.shijiabao.minsu.R;
 import com.shijiabao.minsu.adapter.HomeItemRecyclerViewAdapter;
 import com.shijiabao.minsu.common.DividerGridItemDecoration;
 import com.shijiabao.minsu.map.LocatedActivity;
+import com.shijiabao.minsu.ui.view.AppointmentActivity;
+import com.shijiabao.minsu.ui.view.OrderDetailsActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -103,11 +106,19 @@ public class HomeItemLocateActivity extends AppCompatActivity {
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
     }
 
-    @OnClick(R.id.seeMap)
-    public void onClick() {
-        //查看全屏地图
-        Intent intent = new Intent(this, LocatedActivity.class);
-        startActivity(intent);
+    @OnClick({R.id.seeMap, R.id.appointmentBtn})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.seeMap:
+                //查看全屏地图
+                Intent intent = new Intent(this, LocatedActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.appointmentBtn:
+                Intent intent2 = new Intent(this, AppointmentActivity.class);
+                startActivity(intent2);
+                break;
+        }
     }
 
     /**
