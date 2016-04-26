@@ -13,12 +13,25 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.baidu.location.BDLocation;
+import com.baidu.location.BDLocationListener;
+import com.baidu.location.LocationClient;
+import com.baidu.location.LocationClientOption;
+import com.baidu.mapapi.SDKInitializer;
+import com.baidu.mapapi.map.BaiduMap;
+import com.baidu.mapapi.map.MapStatusUpdate;
+import com.baidu.mapapi.map.MapStatusUpdateFactory;
+import com.baidu.mapapi.map.MapView;
+import com.baidu.mapapi.map.MyLocationData;
+import com.baidu.mapapi.model.LatLng;
 import com.shijiabao.minsu.R;
 import com.shijiabao.minsu.citypicker.adapter.CityListAdapter;
 import com.shijiabao.minsu.citypicker.adapter.ResultListAdapter;
 import com.shijiabao.minsu.citypicker.db.DBManager;
 import com.shijiabao.minsu.citypicker.model.City;
 import com.shijiabao.minsu.citypicker.model.LocateState;
+import com.shijiabao.minsu.citypicker.utils.StringUtils;
 import com.shijiabao.minsu.citypicker.utils.ToastUtils;
 import com.shijiabao.minsu.citypicker.view.SideLetterBar;
 
@@ -46,55 +59,104 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
     private List<City> mAllCities;
     private DBManager dbManager;
 
+    private MapView mMapView;
+    private BaiduMap mBaiduMap;
+
+    public LocationClient mLocationClient = null;
+    public BDLocationListener myListener = new MyLocationListener();
+    private boolean isFirstLocation = true;
+    private String city=null;
+    private String district=null;
+
 //    private AMapLocationClient mLocationClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //初始化SDK中的Context
+        SDKInitializer.initialize(getApplicationContext());
+
         setContentView(R.layout.activity_city_list);
 
         initData();
         initView();
-        initLocation();
+
+        //获取地图控件
+        mMapView = (MapView) findViewById(R.id.mapViewLocated);
+        //获取地图对象
+        mBaiduMap = mMapView.getMap();
+
+        //设置普通地图
+        mBaiduMap.setMapType(BaiduMap.MAP_TYPE_NORMAL);
+        //2.开启定位图层
+        mBaiduMap.setMyLocationEnabled(true);
+        mLocationClient = new LocationClient(getApplicationContext());     //声明LocationClient类
+        mLocationClient.registerLocationListener(myListener);    //注册监听函数
+        setLocationOption();
+        mLocationClient.start();
+
     }
 
-    private void initLocation() {//初始化位置
-//        mLocationClient = new AMapLocationClient(getApplicationContext());
-//        AMapLocationClientOption option = new AMapLocationClientOption();
-//        option.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);
-//        option.setOnceLocation(true);
-//        mLocationClient.setLocationOption(option);//设置定位参数
-//        mLocationClient.setLocationListener(new AMapLocationListener() {//设置定位监听
-//            @Override
-//            public void onLocationChanged(AMapLocation aMapLocation) {
-//                if (aMapLocation != null) {
-//                    if (aMapLocation.getErrorCode() == 0) {
-//
-//                        /**
-//                         * amapLocation.getCity();//城市信息
-//                         * amapLocation.getDistrict();//城区信息
-//                         */
-//                        String city = aMapLocation.getCity();//获取定位城市
-//                        String district = aMapLocation.getDistrict();//获取定位目标
-//
-//                        Log.e("onLocationChanged", "city: " + city);
-//                        Log.e("onLocationChanged", "district: " + district);
-//
-//
-//                        String location = StringUtils.extractLocation(city, district);
-//
-//                        mCityAdapter.updateLocateState(LocateState.SUCCESS, location);
-//                    } else {
-//                        //定位失败
-//                        mCityAdapter.updateLocateState(LocateState.FAILED, null);
-//                    }
-//                }
-//            }
-//        });
-//        mLocationClient.startLocation();
+    //设置相关参数
+    private void setLocationOption(){
+        LocationClientOption option = new LocationClientOption();
+        option.setOpenGps(true);
+        option.setCoorType("bd09ll");
+        option.setScanSpan(1000);
+
+        //添加以下参数才能获取到城市和市区的信息
+        option.setServiceName("com.baidu.location.service_v2.9");
+        option.setAddrType("all");
+        option.setPriority(LocationClientOption.NetWorkFirst);
+        option.setPriority(LocationClientOption.GpsFirst);       //gps
+        option.disableCache(true);
+        mLocationClient.setLocOption(option);
     }
 
+    /**
+     * 定位SDK监听函数
+     */
 
+    public class MyLocationListener implements BDLocationListener {
+
+        @Override
+        public void onReceiveLocation(BDLocation location) {
+            // map view 销毁后不在处理新接收的位置
+            if (location == null || mBaiduMap == null)
+                return;
+            city = location.getCity();
+            district = location.getDistrict();
+            Log.d("MyLocationListener==", city);
+            Log.d("MyLocationListener===", district);
+
+            MyLocationData locationData = new MyLocationData.Builder()
+                    .accuracy(location.getRadius())
+                    .direction(100).latitude(location.getLatitude())
+                    .longitude(location.getLongitude())
+                    .build();
+
+
+            //4.设置定位数据
+            mBaiduMap.setMyLocationData(locationData);
+
+            if(location.getLocType() == 161 ){
+                String located= StringUtils.extractLocation(city, district);
+                mCityAdapter.updateLocateState(LocateState.SUCCESS, located);
+            }else {
+               // 定位失败
+                mCityAdapter.updateLocateState(LocateState.FAILED, null);
+            }
+
+            //判断是否是第一次定位
+            if (isFirstLocation) {
+                isFirstLocation = false;
+                LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
+
+                MapStatusUpdate up = MapStatusUpdateFactory.newLatLng(latLng);
+                mBaiduMap.animateMapStatus(up);
+            }
+        }
+    }
 
 
 
@@ -114,7 +176,7 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
             public void onLocateClick() {
                 Log.e("onLocateClick", "重新定位...");
                 mCityAdapter.updateLocateState(LocateState.LOCATING, null);
-//                mLocationClient.startLocation();//点击再次开启定位
+                mLocationClient.start();//点击再次开启定位
             }
         });
 
@@ -210,8 +272,25 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
     }
 
     @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
     protected void onDestroy() {
         super.onDestroy();
-        //mLocationClient.stopLocation();//关闭定位
+        mLocationClient.stop();
+        mBaiduMap.setMyLocationEnabled(false);
     }
+
 }

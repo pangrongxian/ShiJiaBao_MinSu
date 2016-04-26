@@ -56,7 +56,6 @@ public class LocatedActivity extends AppCompatActivity {
         mBaiduMap.setMyLocationEnabled(true);
         mLocationClient = new LocationClient(getApplicationContext());     //声明LocationClient类
         mLocationClient.registerLocationListener(myListener);    //注册监听函数
-
         setLocationOption();
         mLocationClient.start();
 
