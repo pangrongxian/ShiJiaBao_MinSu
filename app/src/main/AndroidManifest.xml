@@ -31,7 +31,7 @@
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="w1vlzdBAmNoaG7mCqfYWpTFnRG4Rl5g9" />
         //key:开发者申请的key
-        <activity android:name=".map.NormalMapActivity">
+        <activity android:name=".map.LocatedActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -69,15 +69,14 @@
         <activity android:name=".ui.view.AppointmentActivity" />
         <activity android:name=".ui.view.RoomDetailsActivity" />
         <activity android:name=".ui.view.OrderDetailsActivity" />
-        <activity android:name=".ui.view.MainActivity"/>
+        <activity android:name=".ui.view.MainActivity" />
 
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
-            android:process=":remote"/>
+            android:process=":remote" />
 
+        <activity android:name=".map.NormalMapActivity"></activity>
     </application>
-
-
 
 </manifest>

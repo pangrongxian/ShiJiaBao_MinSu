@@ -94,6 +94,11 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
 //        mLocationClient.startLocation();
     }
 
+
+
+
+
+
     private void initData() {
         dbManager = new DBManager(this);
         dbManager.copyDBFile();
