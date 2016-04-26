@@ -41,8 +41,6 @@ import java.util.List;
  * author zaaach on 2016/1/26.
  */
 public class CityPickerActivity extends AppCompatActivity implements View.OnClickListener {
-    public static final int REQUEST_CODE_PICK_CITY = 2333;
-    public static final String KEY_PICKED_CITY = "picked_city";
 
     private ListView mListView;
     private ListView mResultListView;
@@ -50,7 +48,6 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
     private EditText searchBox;
     private ImageView clearBtn;
     private TextView search_cancel;
-    //private ImageView backBtn;
     private ViewGroup emptyView;
     private boolean b = false;
 
@@ -68,7 +65,6 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
     private String city=null;
     private String district=null;
 
-//    private AMapLocationClient mLocationClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,7 +78,7 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
         initView();
 
         //获取地图控件
-        mMapView = (MapView) findViewById(R.id.mapViewLocated);
+        mMapView = (MapView) findViewById(R.id.mapViewLocateCity);
         //获取地图对象
         mBaiduMap = mMapView.getMap();
 
@@ -135,7 +131,6 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
                     .longitude(location.getLongitude())
                     .build();
 
-
             //4.设置定位数据
             mBaiduMap.setMyLocationData(locationData);
 
@@ -157,9 +152,6 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
             }
         }
     }
-
-
-
 
     private void initData() {
         dbManager = new DBManager(this);

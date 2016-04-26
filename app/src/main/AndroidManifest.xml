@@ -69,8 +69,8 @@
         <activity android:name=".ui.view.AppointmentActivity" />
         <activity android:name=".ui.view.RoomDetailsActivity" />
         <activity android:name=".ui.view.OrderDetailsActivity" />
-        <activity android:name=".map.NormalMapActivity"/>
         <activity android:name=".map.LocatedActivity" />
+        <activity android:name=".ui.home.HomeItemLocateActivity"/>
 
         <service
             android:name="com.baidu.location.f"

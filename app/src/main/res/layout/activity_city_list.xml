@@ -89,7 +89,7 @@
     <com.baidu.mapapi.map.MapView
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:id="@+id/mapViewLocated"
+        android:id="@+id/mapViewLocateCity"
         android:visibility="gone"
         android:clickable="true"/>
 

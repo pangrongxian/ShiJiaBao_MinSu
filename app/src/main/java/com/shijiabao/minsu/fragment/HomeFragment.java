@@ -22,8 +22,10 @@ import com.jude.rollviewpager.adapter.LoopPagerAdapter;
 import com.jude.rollviewpager.hintview.ColorPointHintView;
 import com.shijiabao.minsu.R;
 import com.shijiabao.minsu.adapter.HomeFragmentAdapter;
+import com.shijiabao.minsu.map.LocatedActivity;
 import com.shijiabao.minsu.resource.Resource;
 import com.shijiabao.minsu.ui.home.HomeItemActivity;
+import com.shijiabao.minsu.ui.home.HomeItemLocateActivity;
 import com.shijiabao.minsu.ui.home.HomeShareActivity;
 
 public class HomeFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener{
@@ -116,7 +118,7 @@ public class HomeFragment extends Fragment implements SwipeRefreshLayout.OnRefre
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				//点击跳转到HomeItemActivity
-				Intent intent = new Intent(getActivity(), HomeItemActivity.class);
+				Intent intent = new Intent(getActivity(), HomeItemLocateActivity.class);
 				startActivity(intent);
 			}
 		});

@@ -56,7 +56,7 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="170dp"
+                    android:layout_height="150dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/mask" />
 
@@ -97,19 +97,36 @@
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/home_item_recyclerView"
                 android:layout_width="match_parent"
-                android:layout_height="110dp">
+                android:layout_height="90dp">
             </android.support.v7.widget.RecyclerView>
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="35dp"
                 android:gravity="center"
                 android:text="唯美度假城堡式民宿"/>
 
-            <View
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp">
-            </View>
+                android:layout_height="170dp">
+                <com.baidu.mapapi.map.MapView
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:id="@+id/mapViewLocation"
+                    android:clickable="true"/>
+
+                <Button
+                    android:id="@+id/seeMap"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/shape_login_btn"
+                    android:text="全屏查看"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:layout_gravity="right|top" />
+            </FrameLayout>
 
             <TextView
                 android:layout_width="wrap_content"

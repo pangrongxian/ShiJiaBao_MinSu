@@ -1,8 +1,13 @@
-package com.shijiabao.minsu.map;
+package com.shijiabao.minsu.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.widget.Button;
 
 import com.baidu.location.BDLocation;
 import com.baidu.location.BDLocationListener;
@@ -16,10 +21,26 @@ import com.baidu.mapapi.map.MapView;
 import com.baidu.mapapi.map.MyLocationData;
 import com.baidu.mapapi.model.LatLng;
 import com.shijiabao.minsu.R;
+import com.shijiabao.minsu.adapter.HomeItemRecyclerViewAdapter;
+import com.shijiabao.minsu.common.DividerGridItemDecoration;
+import com.shijiabao.minsu.map.LocatedActivity;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
-public class LocatedActivity extends AppCompatActivity {
+public class HomeItemLocateActivity extends AppCompatActivity {
+
+    @Bind(R.id.appointmentBtn)
+    Button appointmentBtn;
+    @Bind(R.id.seeMap)
+    Button seeMap;
+    private RecyclerView mRecyclerView;
+    private List<String> mDatas;
+    private HomeItemRecyclerViewAdapter mAdapter;
 
     private MapView mMapView;
     private BaiduMap mBaiduMap;
@@ -33,11 +54,15 @@ public class LocatedActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //初始化SDK中的Context
         SDKInitializer.initialize(getApplicationContext());
-        setContentView(R.layout.activity_located);
+        setContentView(R.layout.activity_home_item2);
         ButterKnife.bind(this);
 
+        initView();
+        initData();
+        bindAdapter();
+
         //获取地图控件
-        mMapView = (MapView) findViewById(R.id.mapViewLocate);
+        mMapView = (MapView) findViewById(R.id.mapViewLocation);
         //获取地图对象
         mBaiduMap = mMapView.getMap();
 
@@ -51,6 +76,38 @@ public class LocatedActivity extends AppCompatActivity {
         setLocationOption();
         mLocationClient.start();
 
+    }
+
+
+    private void initView() {
+        mRecyclerView = (RecyclerView) findViewById(R.id.home_item_recyclerView);
+    }
+
+    private void initData() {
+        mDatas = new ArrayList<String>();
+        for (int i = 'A'; i < 'z'; i++) {
+            mDatas.add("" + (char) i);
+        }
+    }
+
+    private void bindAdapter() {
+        mAdapter = new HomeItemRecyclerViewAdapter(this, mDatas);
+        //设置 RecyclerView 横向滑动
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+        mRecyclerView.setLayoutManager(linearLayoutManager);
+        mRecyclerView.setAdapter(mAdapter);
+
+        mRecyclerView.addItemDecoration(new DividerGridItemDecoration(this));
+//        // 设置item动画
+        mRecyclerView.setItemAnimator(new DefaultItemAnimator());
+    }
+
+    @OnClick(R.id.seeMap)
+    public void onClick() {
+        //查看全屏地图
+        Intent intent = new Intent(this, LocatedActivity.class);
+        startActivity(intent);
     }
 
     /**
@@ -114,7 +171,7 @@ public class LocatedActivity extends AppCompatActivity {
     }
 
     //设置相关参数
-    private void setLocationOption(){
+    private void setLocationOption() {
         LocationClientOption option = new LocationClientOption();
         option.setOpenGps(true);
         option.setCoorType("bd09ll");
