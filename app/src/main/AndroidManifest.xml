@@ -69,12 +69,15 @@
         <activity android:name=".ui.view.AppointmentActivity" />
         <activity android:name=".ui.view.RoomDetailsActivity" />
         <activity android:name=".ui.view.OrderDetailsActivity" />
-        <activity android:name=".ui.view.MainActivity"></activity>
+        <activity android:name=".ui.view.MainActivity"/>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote"/>
+
     </application>
 
-    <service
-        android:name="com.baidu.location.f"
-        android:enabled="true"
-        android:process=":remote"/>
+
 
 </manifest>

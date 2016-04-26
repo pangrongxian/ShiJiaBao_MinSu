@@ -39,6 +39,7 @@ public class CityPickerActivity extends AppCompatActivity implements View.OnClic
     private TextView search_cancel;
     //private ImageView backBtn;
     private ViewGroup emptyView;
+    private boolean b = false;
 
     private CityListAdapter mCityAdapter;
     private ResultListAdapter mResultAdapter;
