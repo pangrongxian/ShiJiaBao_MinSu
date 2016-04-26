@@ -43,7 +43,8 @@ public class LocatedActivity extends AppCompatActivity {
 
         //设置普通地图
         mBaiduMap.setMapType(BaiduMap.MAP_TYPE_NORMAL);
-
+        //设置报读地图缩放比例
+        mBaiduMap.setMaxAndMinZoomLevel(21,14);// 50 1000
         //2.开启定位图层
         mBaiduMap.setMyLocationEnabled(true);
         mLocationClient = new LocationClient(getApplicationContext());     //声明LocationClient类

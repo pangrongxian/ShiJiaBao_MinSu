@@ -66,6 +66,8 @@ public class HomeItemLocateActivity extends AppCompatActivity implements View.On
 
         //设置普通地图
         mBaiduMap.setMapType(BaiduMap.MAP_TYPE_NORMAL);
+        //设置地图大小
+        mBaiduMap.setMaxAndMinZoomLevel(18,15);
 
         //2.开启定位图层
         mBaiduMap.setMyLocationEnabled(true);
