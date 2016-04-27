@@ -14,7 +14,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -38,11 +38,12 @@ dependencies {
     //ok http
     compile 'com.squareup.okhttp3:okhttp:3.0.1'
     //map
+    compile files('libs/BaiduLBS_Android.jar')
     //butterKnife
     compile 'com.jakewharton:butterknife:7.0.1'
     //time picker
     compile 'com.squareup:android-times-square:1.6.5@aar'
-    compile files('libs/BaiduLBS_Android.jar')
+
     compile 'com.android.support:support-v4:23.3.0'
     compile 'com.android.support:appcompat-v7:23.3.0'
 }

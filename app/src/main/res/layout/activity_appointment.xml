@@ -42,6 +42,7 @@
     <Button
     android:id="@+id/commitBtn"
     android:layout_width="match_parent"
+    android:onClick="commit"
     android:layout_height="45dp"
     android:background="#CEE21A"
     android:textSize="18sp"
