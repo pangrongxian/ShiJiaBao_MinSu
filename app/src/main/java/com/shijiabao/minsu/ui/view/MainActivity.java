@@ -27,22 +27,22 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
     /**
      * 用于展示主页的Fragment
      */
-    private HomeFragment messageFragment;
+    private HomeFragment homeFragment;
 
     /**
      * 用于展示聚落的Fragment
      */
-    private SettlementFragment contactsFragment;
+    private SettlementFragment settlementFragment;
 
     /**
      * 用于展示游记的Fragment
      */
-    private TravelsFragment newsFragment;
+    private TravelsFragment travelsFragment;
 
     /**
      * 用于展示我的的Fragment
      */
-    private MyFragment settingFragment;
+    private MyFragment myFragment;
 
     /**
      * 主页界面布局
@@ -188,32 +188,32 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
                 // 当点击了主页tab时，改变控件的图片和文字颜色
                 homeImage.setImageResource(R.mipmap.tabbar_home_icon_sel);
                 homeText.setTextColor(Color.parseColor("#53CAC3"));
-                if (messageFragment == null) {
-                    messageFragment = new HomeFragment();
-                    transaction.add(R.id.content, messageFragment);
+                if (homeFragment == null) {
+                    homeFragment = new HomeFragment();
+                    transaction.add(R.id.content, homeFragment);
                 } else {
-                    transaction.show(messageFragment);
+                    transaction.show(homeFragment);
                 }
                 break;
             case 1:
                 // 当点击了聚落tab时，改变控件的图片和文字颜色
                 settlementImage.setImageResource(R.mipmap.tabbar_city_icon_sel);
                 settlementText.setTextColor(Color.parseColor("#53CAC3"));
-                if (contactsFragment == null) {
-                    contactsFragment = new SettlementFragment();
-                    transaction.add(R.id.content, contactsFragment);
+                if (settlementFragment == null) {
+                    settlementFragment = new SettlementFragment();
+                    transaction.add(R.id.content, settlementFragment);
                 } else {
-                    transaction.show(contactsFragment);
+                    transaction.show(settlementFragment);
                 }
                 break;
             case 2:
                 travelsImage.setImageResource(R.mipmap.tabbar_diary_icon_sel);
                 travelsText.setTextColor(Color.parseColor("#53CAC3"));
-                if (newsFragment == null) {
-                    newsFragment = new TravelsFragment();
-                    transaction.add(R.id.content, newsFragment);
+                if (travelsFragment == null) {
+                    travelsFragment = new TravelsFragment();
+                    transaction.add(R.id.content, travelsFragment);
                 } else {
-                    transaction.show(newsFragment);
+                    transaction.show(travelsFragment);
                 }
 
                 break;
@@ -222,11 +222,11 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
                 // 当点击了我的tab时，改变控件的图片和文字颜色
                 myImage.setImageResource(R.mipmap.tabbar_my_icon_sel);
                 myText.setTextColor(Color.parseColor("#53CAC3"));
-                if (settingFragment == null) {
-                    settingFragment = new MyFragment();
-                    transaction.add(R.id.content, settingFragment);
+                if (myFragment == null) {
+                    myFragment = new MyFragment();
+                    transaction.add(R.id.content, myFragment);
                 } else {
-                    transaction.show(settingFragment);
+                    transaction.show(myFragment);
                 }
                 break;
         }
@@ -253,17 +253,17 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
      * @param transaction 用于对Fragment执行操作的事务
      */
     private void hideFragments(FragmentTransaction transaction) {
-        if (messageFragment != null) {
-            transaction.hide(messageFragment);
+        if (homeFragment != null) {
+            transaction.hide(homeFragment);
         }
-        if (contactsFragment != null) {
-            transaction.hide(contactsFragment);
+        if (settlementFragment != null) {
+            transaction.hide(settlementFragment);
         }
-        if (newsFragment != null) {
-            transaction.hide(newsFragment);
+        if (travelsFragment != null) {
+            transaction.hide(travelsFragment);
         }
-        if (settingFragment != null) {
-            transaction.hide(settingFragment);
+        if (myFragment != null) {
+            transaction.hide(myFragment);
         }
     }
 }
