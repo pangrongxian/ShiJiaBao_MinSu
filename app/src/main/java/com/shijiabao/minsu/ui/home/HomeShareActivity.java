@@ -1,11 +1,13 @@
 package com.shijiabao.minsu.ui.home;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import com.shijiabao.minsu.R;
+import com.shijiabao.minsu.pototpicker.view.PublishActivity;
 
 public class HomeShareActivity extends Activity {
 
@@ -22,5 +24,11 @@ public class HomeShareActivity extends Activity {
                 finish();
             }
         });
+    }
+
+    public void sharePhoto(View view) {
+        //点击跳转到图片选择器Activity
+        Intent intent = new Intent(this, PublishActivity.class);
+        startActivity(intent);
     }
 }

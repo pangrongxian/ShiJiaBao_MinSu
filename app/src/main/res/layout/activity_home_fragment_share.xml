@@ -42,10 +42,14 @@
     </LinearLayout>
 
 
-    <View
+    <ImageView
+        android:id="@+id/sharePhoto"
         android:layout_width="match_parent"
-        android:layout_height="170dp">
-    </View>
+        android:layout_height="170dp"
+        android:src="@drawable/bg_img"
+        android:scaleType="centerCrop"
+        android:onClick="sharePhoto">
+    </ImageView>
 
 
     <LinearLayout

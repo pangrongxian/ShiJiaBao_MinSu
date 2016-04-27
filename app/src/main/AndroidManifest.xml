@@ -43,7 +43,6 @@
         <activity android:name=".ui.my.MyMessageActivity" />
         <activity android:name=".ui.my.MyHeadActivity" />
         <activity android:name=".ui.settlement.SettlementItemActivity" />
-        <activity android:name=".ui.home.HomeItemActivity" />
         <activity android:name=".ui.home.HomeShareActivity" />
         <activity android:name=".ui.travels.TitleWriteActivity" />
         <activity android:name=".ui.travels.TravelsItemActivity" />
@@ -71,6 +70,11 @@
         <activity android:name=".ui.view.OrderDetailsActivity" />
         <activity android:name=".map.LocatedActivity" />
         <activity android:name=".ui.home.HomeItemLocateActivity"/>
+
+        <activity android:name=".pototpicker.view.PublishActivity"/>
+        <activity android:name=".pototpicker.view.ImageBucketChooseActivity"/>
+        <activity android:name=".pototpicker.view.ImageChooseActivity"/>
+        <activity android:name=".pototpicker.view.ImageZoomActivity"/>
 
         <service
             android:name="com.baidu.location.f"
