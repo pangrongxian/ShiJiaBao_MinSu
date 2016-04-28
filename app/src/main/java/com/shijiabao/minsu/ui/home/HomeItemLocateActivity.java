@@ -50,10 +50,11 @@ public class HomeItemLocateActivity extends AppCompatActivity implements View.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //初始化SDK中的Context
-        SDKInitializer.initialize(getApplicationContext());
+        //在使用SDK各组件之前初始化context信息，传入ApplicationContext
+        //注意该方法要再setContentView方法之前实现
+        //SDKInitializer.initialize(getApplicationContext());
+
         setContentView(R.layout.activity_home_item2);
-        ButterKnife.bind(this);
 
         initView();
         initData();

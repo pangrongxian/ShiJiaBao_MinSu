@@ -19,7 +19,7 @@ public class MyApplication extends Application {
         super.onCreate();
 
 //        //初始化SDK中的Context
-//        SDKInitializer.initialize(getApplicationContext());
+        SDKInitializer.initialize(getApplicationContext());
         removeTempFromPref();
 
         ShareSDK.initSDK(this);
