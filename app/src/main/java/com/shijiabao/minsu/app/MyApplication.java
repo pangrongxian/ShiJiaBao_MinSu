@@ -6,6 +6,8 @@ import android.content.SharedPreferences;
 import com.baidu.mapapi.SDKInitializer;
 import com.shijiabao.minsu.pototpicker.utils.CustomConstants;
 
+import cn.sharesdk.framework.ShareSDK;
+
 /**
  * Created by prx on 2016/4/19 21:24.
  * Email:pangrongxian@gmail.com
@@ -18,8 +20,9 @@ public class MyApplication extends Application {
 
 //        //初始化SDK中的Context
 //        SDKInitializer.initialize(getApplicationContext());
-
         removeTempFromPref();
+
+        ShareSDK.initSDK(this);
 
     }
 

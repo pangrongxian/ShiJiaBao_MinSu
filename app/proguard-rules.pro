@@ -27,3 +27,11 @@
 -dontwarn com.google.android.gms.**
 -dontwarn com.android.volley.toolbox.**
 -dontwarn okio.**
+
+
+# FastJson 混淆
+# 如果是有mode的get和set方法，需要设置下面这条语句
+
+-dontwarn com.alibaba.fastjson.**
+-keep class com.alibaba.fastjson.** { *; }
+-keepattributes Signature

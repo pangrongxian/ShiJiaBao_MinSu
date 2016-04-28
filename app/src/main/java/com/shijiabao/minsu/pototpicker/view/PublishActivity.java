@@ -23,6 +23,7 @@ import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.alibaba.fastjson.JSON;
 import com.shijiabao.minsu.R;
@@ -86,6 +87,7 @@ public class PublishActivity extends Activity {
         SharedPreferences sp = getSharedPreferences(
                 CustomConstants.APPLICATION_NAME, MODE_PRIVATE);
         sp.edit().remove(CustomConstants.PREF_TEMP_IMAGES).commit();
+        sp.edit().clear().commit();
     }
 
     @SuppressWarnings("unchecked")
@@ -140,8 +142,10 @@ public class PublishActivity extends Activity {
         sendTv.setOnClickListener(new OnClickListener() {
 
             public void onClick(View v) {
-                removeTempFromPref();//获取到图片数据源
-                System.exit(0);//System.exit(0)是正常退出程序
+                removeTempFromPref();
+                //获取到图片数据源
+                //当用户按回退键，弹出对话框问是否放弃此次编辑，如果是，清空SharedPreferences 数据
+                finish();
                 //TODO 这边以mDataList为来源做上传的动作
             }
         });
