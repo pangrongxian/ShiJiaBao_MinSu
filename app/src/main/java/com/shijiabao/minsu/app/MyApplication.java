@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import com.baidu.mapapi.SDKInitializer;
 import com.shijiabao.minsu.pototpicker.utils.CustomConstants;
 
 import cn.sharesdk.framework.ShareSDK;

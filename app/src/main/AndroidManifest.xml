@@ -42,13 +42,12 @@
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
 
-<<<<<<< HEAD
+
     <!--sms-->
     <uses-permission android:name="android.permission.RECEIVE_SMS"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_SMS"/>
-=======
->>>>>>> 1e6857b93cc5d53327730d99f79fd52c906b0051
+
 
     <application
         android:name=".app.MyApplication"

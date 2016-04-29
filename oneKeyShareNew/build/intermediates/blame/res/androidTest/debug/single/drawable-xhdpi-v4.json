@@ -116,21 +116,12 @@
         "source": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatfavorite.png"
     },
     {
-<<<<<<< HEAD
         "merged": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_sinaweibo.png",
         "source": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_sinaweibo.png"
     },
     {
         "merged": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_flickr.png",
         "source": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_flickr.png"
-=======
-        "merged": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_flickr.png",
-        "source": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_flickr.png"
-    },
-    {
-        "merged": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_sinaweibo.png",
-        "source": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_oks_classic_sinaweibo.png"
->>>>>>> 1e6857b93cc5d53327730d99f79fd52c906b0051
     },
     {
         "merged": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_foursquare.png",
