@@ -68,12 +68,21 @@
         "source": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_qq.png"
     },
     {
+<<<<<<< HEAD
         "merged": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_mingdao.png",
         "source": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_mingdao.png"
     },
     {
         "merged": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_foursquare.png",
         "source": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_foursquare.png"
+=======
+        "merged": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_foursquare.png",
+        "source": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_foursquare.png"
+    },
+    {
+        "merged": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_mingdao.png",
+        "source": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_mingdao.png"
+>>>>>>> 1e6857b93cc5d53327730d99f79fd52c906b0051
     },
     {
         "merged": "F:\\coding\\ShiJiaBao_MinSu\\oneKeyShareNew\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatmoments.png",

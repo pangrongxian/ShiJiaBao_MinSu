@@ -24,7 +24,7 @@ public class MyApplication extends Application {
         context = getApplicationContext();
 
 //        //初始化SDK中的Context
-//        SDKInitializer.initialize(getApplicationContext());
+        SDKInitializer.initialize(getApplicationContext());
         removeTempFromPref();
 
         ShareSDK.initSDK(this);
