@@ -4,7 +4,6 @@ import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.baidu.mapapi.SDKInitializer;
 import com.shijiabao.minsu.pototpicker.utils.CustomConstants;
 
 import cn.sharesdk.framework.ShareSDK;
@@ -16,7 +15,7 @@ import cn.smssdk.SMSSDK;
  */
 public class MyApplication extends Application {
 
-    private static Context context;
+    public static Context context;
 
     @Override
     public void onCreate() {//初始化
@@ -34,7 +33,7 @@ public class MyApplication extends Application {
 
     }
 
-    public static Context getContext() {
+    public static Context getContext() {//获取全局环境
         return context;
     }
 
