@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "outputFile": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 183
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 232
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 325
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 371
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 414
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 463
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 552
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 603
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 673
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 782
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 829
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 884
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 987
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1039
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1092
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1196
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 1280
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -373,7 +373,7 @@
                     "endOffset": 3165
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -393,7 +393,7 @@
                     "endOffset": 3220
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 4,
@@ -412,7 +412,7 @@
                     "endOffset": 3273
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 88,
                         "startColumn": 4,
@@ -431,7 +431,7 @@
                     "endOffset": 3326
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 89,
                         "startColumn": 4,
@@ -450,7 +450,7 @@
                     "endOffset": 3384
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 90,
                         "startColumn": 4,
@@ -469,7 +469,7 @@
                     "endOffset": 3435
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 91,
                         "startColumn": 4,
@@ -488,7 +488,7 @@
                     "endOffset": 3479
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 4,
@@ -507,7 +507,7 @@
                     "endOffset": 3534
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 93,
                         "startColumn": 4,
@@ -526,7 +526,7 @@
                     "endOffset": 3639
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 94,
                         "startColumn": 4,
@@ -545,7 +545,7 @@
                     "endOffset": 3692
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 95,
                         "startColumn": 4,
@@ -564,7 +564,7 @@
                     "endOffset": 3794
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 96,
                         "startColumn": 4,
@@ -583,7 +583,7 @@
                     "endOffset": 3838
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 97,
                         "startColumn": 4,
@@ -602,7 +602,7 @@
                     "endOffset": 3924
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 98,
                         "startColumn": 4,
@@ -621,7 +621,7 @@
                     "endOffset": 3977
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 99,
                         "startColumn": 4,
@@ -640,7 +640,7 @@
                     "endOffset": 4020
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 4,
@@ -659,7 +659,7 @@
                     "endOffset": 4107
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 101,
                         "startColumn": 4,
@@ -678,7 +678,7 @@
                     "endOffset": 4152
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 102,
                         "startColumn": 4,
@@ -697,7 +697,7 @@
                     "endOffset": 4196
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 103,
                         "startColumn": 4,
@@ -716,7 +716,7 @@
                     "endOffset": 4256
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 104,
                         "startColumn": 4,
@@ -735,7 +735,7 @@
                     "endOffset": 4311
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 105,
                         "startColumn": 4,
@@ -754,7 +754,7 @@
                     "endOffset": 4364
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 106,
                         "startColumn": 4,
@@ -773,7 +773,7 @@
                     "endOffset": 4468
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 107,
                         "startColumn": 4,
@@ -792,7 +792,7 @@
                     "endOffset": 4515
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 108,
                         "startColumn": 4,
@@ -811,7 +811,7 @@
                     "endOffset": 4554
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 109,
                         "startColumn": 4,
@@ -830,7 +830,7 @@
                     "endOffset": 4638
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 110,
                         "startColumn": 4,
@@ -849,7 +849,7 @@
                     "endOffset": 4682
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 111,
                         "startColumn": 4,
@@ -868,7 +868,7 @@
                     "endOffset": 4726
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 112,
                         "startColumn": 4,
@@ -887,7 +887,7 @@
                     "endOffset": 4787
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 113,
                         "startColumn": 4,
@@ -906,7 +906,7 @@
                     "endOffset": 4843
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 114,
                         "startColumn": 4,
@@ -925,7 +925,7 @@
                     "endOffset": 4894
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 115,
                         "startColumn": 4,
@@ -944,7 +944,7 @@
                     "endOffset": 4950
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 116,
                         "startColumn": 4,
@@ -963,7 +963,7 @@
                     "endOffset": 5014
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 117,
                         "startColumn": 4,
@@ -982,7 +982,7 @@
                     "endOffset": 5063
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 118,
                         "startColumn": 4,
@@ -1001,7 +1001,7 @@
                     "endOffset": 5111
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 119,
                         "startColumn": 4,
@@ -1020,7 +1020,7 @@
                     "endOffset": 5163
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 120,
                         "startColumn": 4,
@@ -1039,7 +1039,7 @@
                     "endOffset": 5217
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 121,
                         "startColumn": 4,
@@ -1058,7 +1058,7 @@
                     "endOffset": 5268
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 122,
                         "startColumn": 4,
@@ -1077,7 +1077,7 @@
                     "endOffset": 5315
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 123,
                         "startColumn": 4,
@@ -1096,7 +1096,7 @@
                     "endOffset": 5364
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 124,
                         "startColumn": 4,
@@ -1115,7 +1115,7 @@
                     "endOffset": 5424
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 125,
                         "startColumn": 4,
@@ -1134,7 +1134,7 @@
                     "endOffset": 5470
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 126,
                         "startColumn": 4,
@@ -1153,7 +1153,7 @@
                     "endOffset": 5530
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 127,
                         "startColumn": 4,
@@ -1172,7 +1172,7 @@
                     "endOffset": 5575
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 128,
                         "startColumn": 4,
@@ -1191,7 +1191,7 @@
                     "endOffset": 5662
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 129,
                         "startColumn": 4,
@@ -1210,7 +1210,7 @@
                     "endOffset": 5715
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 130,
                         "startColumn": 4,
@@ -1229,7 +1229,7 @@
                     "endOffset": 5768
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 131,
                         "startColumn": 4,
@@ -1248,7 +1248,7 @@
                     "endOffset": 5828
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 132,
                         "startColumn": 4,
@@ -1267,7 +1267,7 @@
                     "endOffset": 5887
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 133,
                         "startColumn": 4,
@@ -1286,7 +1286,7 @@
                     "endOffset": 5938
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 134,
                         "startColumn": 4,
@@ -1305,7 +1305,7 @@
                     "endOffset": 6037
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 135,
                         "startColumn": 4,
@@ -1324,7 +1324,7 @@
                     "endOffset": 6079
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 136,
                         "startColumn": 4,
@@ -1343,7 +1343,7 @@
                     "endOffset": 6163
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 137,
                         "startColumn": 4,
@@ -1362,7 +1362,7 @@
                     "endOffset": 6215
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 138,
                         "startColumn": 4,
@@ -1381,7 +1381,7 @@
                     "endOffset": 6261
                 },
                 "from": {
-                    "file": "E:\\git_code\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "F:\\coding\\ShiJiaBao_MinSu\\shareSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 139,
                         "startColumn": 4,

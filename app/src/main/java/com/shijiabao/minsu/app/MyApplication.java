@@ -1,12 +1,14 @@
 package com.shijiabao.minsu.app;
 
 import android.app.Application;
+import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.shijiabao.minsu.pototpicker.utils.CustomConstants;
 
 import cn.sharesdk.framework.ShareSDK;
+import cn.smssdk.SMSSDK;
 
 /**
  * Created by prx on 2016/4/19 21:24.
@@ -14,9 +16,13 @@ import cn.sharesdk.framework.ShareSDK;
  */
 public class MyApplication extends Application {
 
+    private static Context context;
+
     @Override
     public void onCreate() {//初始化
         super.onCreate();
+
+        context = getApplicationContext();
 
 //        //初始化SDK中的Context
 //        SDKInitializer.initialize(getApplicationContext());
@@ -24,6 +30,12 @@ public class MyApplication extends Application {
 
         ShareSDK.initSDK(this);
 
+        SMSSDK.initSDK(this,"123c05bcf3380","58292a9bf150cd3f2fb2e7418d48defe");
+
+    }
+
+    public static Context getContext() {
+        return context;
     }
 
     private void removeTempFromPref() {

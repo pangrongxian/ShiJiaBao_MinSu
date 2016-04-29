@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="debug"><source path="E:\git_code\ShiJiaBao_MinSu\shareSDK\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="E:\git_code\ShiJiaBao_MinSu\shareSDK\src\androidTest\assets"/><source path="E:\git_code\ShiJiaBao_MinSu\shareSDK\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>
+<merger version="3"><dataSet config="debug"><source path="F:\coding\ShiJiaBao_MinSu\shareSDK\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="F:\coding\ShiJiaBao_MinSu\shareSDK\src\androidTest\assets"/><source path="F:\coding\ShiJiaBao_MinSu\shareSDK\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>

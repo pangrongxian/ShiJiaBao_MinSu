@@ -20,8 +20,17 @@ android {
     }
 }
 
+repositories{
+    flatDir{
+        dirs 'libs' //放aar的目录地址
+    }
+}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    //share sdk sms
+    compile name:'SMSSDK-2.0.2',ext:'aar'
+    compile name:'SMSSDKGUI-2.0.2',ext:'aar'
     testCompile 'junit:junit:4.12'
     //roll viewpager
     compile 'com.jude:rollviewpager:1.2.8'

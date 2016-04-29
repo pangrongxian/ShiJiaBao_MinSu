@@ -41,7 +41,7 @@
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="w1vlzdBAmNoaG7mCqfYWpTFnRG4Rl5g9" />
         //key:开发者申请的key
-        <activity android:name=".ui.view.MainActivity">
+        <activity android:name=".ui.view.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -66,7 +66,7 @@
         <activity android:name=".ui.my.MyOrderActivity" />
         <activity android:name=".ui.my.MyConsultationActivity" />
         <activity android:name=".ui.my.MyWalletActivity" />
-        <activity android:name=".ui.view.LoginActivity" />
+        <activity android:name=".ui.view.MainActivity" />
         <activity android:name=".ui.view.WelcomeActivity" />
         <activity
             android:name=".ui.view.CityPickerActivity"
@@ -114,6 +114,14 @@
             android:process=":remote" />
 
         <activity android:name=".ui.view.ShareActivity"/>
+
+        <!--sms-->
+        <receiver android:name=".ui.view.LoginActivity$SMSReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
